@@ -10,3 +10,84 @@
     --Grey800: hsl(0, 0%, 12%);
     --Grey900: hsl(0, 0%, 8%);
 }
+
+body{
+    max-width: 100%;
+    background-color: var(--Grey900);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Grey800);
+    max-width: 30%;
+    margin: 5% auto;
+    border: 2px solid black;
+    align-items: center;
+    border: none;
+    border-radius: 15px;
+}
+
+main img{
+    width: 20%;
+    border: none;
+    border-radius: 40px;
+    margin: 5% 0;
+}
+
+.main_nome{
+    font-size: 2rem;
+    font-weight: 200;
+    color: var(--Grey900);
+    margin-bottom: 1.5%;  
+    color: var(--White);
+}
+
+.main_localidade{
+    margin-bottom: 5%;  
+    color: var(--Green);
+}
+
+.main_profissao{
+    margin-bottom: 3%;  
+    color: rgb(201, 199, 199);
+    font-weight: 100;
+}
+
+.main_links{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 5%;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+.main_links button{
+    border: none;
+    border-radius: 10px;
+    background-color: var(--Grey700);
+}
+
+.main_links button:hover{
+   background-color: var(--Green);
+}
+
+.main_links a{
+    display: block;
+    text-decoration: none;
+    color: var(--White);
+    width: 100%;
+    padding: 5% 0;
+    font-weight: 600;
+}
+
+.main_links a:hover{
+    color:black;
+}
+
+.attribution{
+    color:var(--White);
+}
+
+
