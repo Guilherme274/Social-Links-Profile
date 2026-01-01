@@ -91,7 +91,7 @@ main img{
     color:var(--White);
 }
 
-@media (max-width: 900px){
+@media (max-width: 700px){
    main{
         max-width: 100%;
         width: 80%;
