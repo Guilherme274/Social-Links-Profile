@@ -20,7 +20,7 @@ main{
     display: flex;
     flex-direction: column;
     background-color: var(--Grey800);
-    max-width: 30%;
+    max-width: 25%;
     margin: 5% auto;
     border: 2px solid black;
     align-items: center;
@@ -80,6 +80,7 @@ main img{
     width: 100%;
     padding: 5% 0;
     font-weight: 600;
+    font-size: 1rem;
 }
 
 .main_links a:hover{
@@ -90,4 +91,21 @@ main img{
     color:var(--White);
 }
 
+@media (max-width: 900px){
+   main{
+        max-width: 100%;
+        width: 80%;
+   }
 
+   .main_nome{
+        font-size: 3rem;
+   }
+
+   .main_localidade{
+        font-size: 2rem;
+   }
+
+   .main_profissao{
+        font-size: 1.5rem;
+   }
+}
