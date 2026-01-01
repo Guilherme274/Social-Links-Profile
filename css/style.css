@@ -98,14 +98,14 @@ main img{
    }
 
    .main_nome{
-        font-size: 3rem;
-   }
-
-   .main_localidade{
         font-size: 2rem;
    }
 
-   .main_profissao{
+   .main_localidade{
         font-size: 1.5rem;
+   }
+
+   .main_profissao{
+        font-size: 1rem;
    }
 }
